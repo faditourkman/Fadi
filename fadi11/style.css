@@ -1,0 +1,52 @@
+.et-padding{
+	margin-top: 10px !important;
+}
+
+img{text-align: center;
+}
+.container{
+	text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start
+}
+@media screen and (max-width: 980px) {
+#wrapper {
+width: 100%;
+}
+.main {
+width: 70%;
+}
+.sidebar {
+width: 30%;
+}
+
+@media screen and (max-width: 700px) {
+	.main {
+		width: auto;
+		float: none;
+
+	}
+	.sidebar {
+		width: auto;
+		float: none;
+		height: 100px;
+		
+	}
+	.sml{
+		width: 150px;
+		height: 150px;
+		
+	}
+}
+
+#references {
+   -webkit-column-width:5cm;
+   -moz-column-width:5cm;
+   column-width:5cm;
+}
+
+#references ol {
+   margin-top:0px;
+}
+
